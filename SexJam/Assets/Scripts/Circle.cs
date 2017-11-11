@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class Circle : MonoBehaviour {
 
-	float direction;
 	public float speed;
-
-	void Start () {
-		
-	}
 
 	void FixedUpdate () {
 		if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) {
