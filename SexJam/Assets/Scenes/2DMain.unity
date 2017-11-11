@@ -360,9 +360,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.045538053, y: 0}
   serializedVersion: 2
-  m_Radius: 0.49999997
+  m_Radius: 0.67564756
 --- !u!1 &938109290
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +429,7 @@ Transform:
   m_GameObject: {fileID: 938109290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.06, y: -0.01, z: 0}
-  m_LocalScale: {x: 8.819405, y: 8.819405, z: 8.819405}
+  m_LocalScale: {x: 14.44383, y: 14.443836, z: 14.443836}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -502,7 +502,7 @@ Transform:
   m_GameObject: {fileID: 1427359251}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.04, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 0.29844767}
+  m_LocalScale: {x: 2.4674866, y: 2.4674866, z: 0.14728312}
   m_Children: []
   m_Father: {fileID: 933218555}
   m_RootOrder: 0
@@ -573,6 +573,19 @@ MonoBehaviour:
   circle: {fileID: 933218555}
   maxThings: 1
   sperm: {fileID: 1109258698733722, guid: a0ef9193f80df48a9a25a13220f41bd4, type: 2}
+  things:
+  - {fileID: 1537497564295874, guid: c0805044a9b514db18857ce7efaef25e, type: 2}
+  - {fileID: 1404042311493680, guid: e3a5c053e28a34a1d9ba67f17972b61c, type: 2}
+  - {fileID: 1878743822535508, guid: 5f69ff284399649f4b8157f061ee10ff, type: 2}
+  - {fileID: 1132319596410184, guid: ac4c4b3af20324e39a50874871cd2207, type: 2}
+  - {fileID: 1520667118962660, guid: da9b194ebe9214a5faa0a320506f1f76, type: 2}
+  - {fileID: 1260353427191254, guid: 87a3fe954e90548d8ba438d3a8a9114c, type: 2}
+  - {fileID: 1093414159738374, guid: c53fd5dc826d545a4afc8c1f2bac7467, type: 2}
+  - {fileID: 1467667456997770, guid: e79bc70f6295f4d35991ac41c97271a9, type: 2}
+  - {fileID: 1896644316507354, guid: f5147b54fc06843cdaa91294b8fcd3cc, type: 2}
+  - {fileID: 1188688259052274, guid: a5f9acd4f6cca4decb9ac2985442f025, type: 2}
+  - {fileID: 1192711307496528, guid: b7087ded6a0d549aa90b3b96f345d8d3, type: 2}
+  - {fileID: 1485057074078492, guid: e51d20e96eeb547439c36c2655dcba13, type: 2}
   spawnX:
   - -23
   - 22
