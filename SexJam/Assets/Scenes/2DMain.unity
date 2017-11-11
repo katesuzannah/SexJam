@@ -501,7 +501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   circle: {fileID: 933218555}
   maxThings: 1
-  sperm: {fileID: 1716254076826276, guid: 3d266448db1604058b91635a9ea703aa, type: 2}
+  sperm: {fileID: 1109258698733722, guid: a0ef9193f80df48a9a25a13220f41bd4, type: 2}
   spawnX:
   - -23
   - 22
