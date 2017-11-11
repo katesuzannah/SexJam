@@ -10,7 +10,7 @@ public class InstantiationManager : MonoBehaviour {
 	public int maxThings = 1;
 	public GameObject sperm;
 	int choice;
-	int deflected;
+	public static int deflected;
 	public float [] spawnX;
 	public float[] spawnY;
 

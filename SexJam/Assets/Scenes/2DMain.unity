@@ -272,6 +272,7 @@ GameObject:
   - component: {fileID: 933218555}
   - component: {fileID: 933218554}
   - component: {fileID: 933218556}
+  - component: {fileID: 933218557}
   m_Layer: 0
   m_Name: Circle
   m_TagString: circle
@@ -347,6 +348,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!58 &933218557
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 933218553}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.49999997
 --- !u!1 &1427359251
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,7 +501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   circle: {fileID: 933218555}
   maxThings: 1
-  sperm: {fileID: 1716254076826276, guid: 3d266448db1604058b91635a9ea703aa, type: 2}
+  sperm: {fileID: 1109258698733722, guid: a0ef9193f80df48a9a25a13220f41bd4, type: 2}
   spawnX:
   - -23
   - 22
