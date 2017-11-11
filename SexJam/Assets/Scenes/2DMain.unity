@@ -231,9 +231,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  field of view: 70
+  orthographic: 1
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -342,6 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1427359253}
   - component: {fileID: 1427359252}
+  - component: {fileID: 1427359254}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -404,3 +405,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1427359254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1427359251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975ea5f5647d946a3982a854b849cfae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
