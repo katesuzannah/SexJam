@@ -9,22 +9,26 @@ public class InstantiationManager : MonoBehaviour {
 	public static int totalThings;
 	public int maxThings = 1;
 	public GameObject sperm;
+	public GameObject [] things;
 	int choice;
 	public static int deflected;
 	public float [] spawnX;
 	public float[] spawnY;
-	Quaternion rotation;
 
 	void Start () {
 		deflected = 0;
-		//rotation = Quaternion.LookRotation (circle.position);
 	}
 
 	void FixedUpdate () {
 		if (totalThings < maxThings) {
-			Instantiate (sperm, new Vector3 (spawnX[Random.Range((int)0, spawnX.Length)], spawnY[Random.Range((int)0, spawnY.Length)], 0f), Quaternion.identity);
-			//transform.LookAt (circle);
-			totalThings++;
+			if (deflected < 5) {
+				Instantiate (sperm, new Vector3 (spawnX [Random.Range ((int)0, spawnX.Length)], spawnY [Random.Range ((int)0, spawnY.Length)], 0f), Quaternion.identity);
+				totalThings++;
+			} else {
+				choice = Random.Range ((int)0, things.Length);
+				Instantiate (things [choice], new Vector3 (spawnX [Random.Range ((int)0, spawnX.Length)], spawnY [Random.Range ((int)0, spawnY.Length)], 0f), Quaternion.identity);
+				totalThings++;
+			}
 		}
 	}
 }
