@@ -17,10 +17,10 @@ public class Circle : MonoBehaviour {
 		}
 //		transform.localEulerAngles += new Vector3 (0f, 0f, direction);
 	}
-	void OnCollisionEnter2D(Collision2D col) {
-		if (col.gameObject.tag == "sperm") {
-			InstantiationManager.totalThings--;
-			Destroy (col.gameObject);
-		}
-	}
+//	void OnCollisionEnter2D(Collision2D col) {
+//		if (col.gameObject.tag == "sperm") {
+//			InstantiationManager.totalThings--;
+//			Destroy (col.gameObject);
+//		}
+//	}
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - circle
   - sperm
+  - shield
   layers:
   - Default
   - TransparentFX
