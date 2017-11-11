@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shield : MonoBehaviour {
+public class Circle : MonoBehaviour {
 
-	public float radius;
-	float ang;
+	float direction;
 	public float speed;
-	public Transform center;
 
 	void Start () {
 		
@@ -15,11 +13,13 @@ public class shield : MonoBehaviour {
 
 	void FixedUpdate () {
 		if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) {
-			ang -= speed;
+//			direction = speed;
+			transform.Rotate (0f, 0f, -speed);
 		}
 		if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)) {
-			ang += speed;
+//			direction = -speed;
+			transform.Rotate (0f, 0f, speed);
 		}
-		transform.position = (Vector2) center.position + Geo.ToVect(ang) * radius;
+//		transform.localEulerAngles += new Vector3 (0f, 0f, direction);
 	}
 }
