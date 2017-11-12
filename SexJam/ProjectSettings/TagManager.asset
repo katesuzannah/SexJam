@@ -7,6 +7,20 @@ TagManager:
   - circle
   - sperm
   - shield
+  - skull
+  - heart
+  - cat
+  - hourglass
+  - money
+  - paper
+  - phone
+  - pill
+  - pot
+  - record
+  - tv
+  - volume
+  - audioManager
+  - pizza
   layers:
   - Default
   - TransparentFX
