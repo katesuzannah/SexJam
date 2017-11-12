@@ -21,6 +21,12 @@ TagManager:
   - volume
   - audioManager
   - pizza
+  - stop
+  - whatsup
+  - okay
+  - allright
+  - distracted
+  - flowchart
   layers:
   - Default
   - TransparentFX
