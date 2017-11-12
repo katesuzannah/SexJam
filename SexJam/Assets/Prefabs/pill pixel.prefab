@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114779975279202472}
   m_Layer: 0
   m_Name: pill pixel
-  m_TagString: Untagged
+  m_TagString: pill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,6 +99,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b164f4cbae3840ada53612fc751e93c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  particle: {fileID: 1358253311784814, guid: c943441a810de439a975a7fc3e41e2d9, type: 2}
+  clips:
+  - {fileID: 8300000, guid: fdcb1c1c32da64769a08beb2853c9b36, type: 3}
+  - {fileID: 8300000, guid: dd647a896fe07408cbac879c8aded424, type: 3}
+  - {fileID: 8300000, guid: ba8ba2337f2d142a5901bdc785ebf4e7, type: 3}
+  - {fileID: 8300000, guid: 1e7bdbf91fca342dba4c5159aecb93f1, type: 3}
+  - {fileID: 8300000, guid: 337316c420f154659948918e9e857d69, type: 3}
+  - {fileID: 8300000, guid: 1df2eba25575b4447bf95fb87fd8f6f8, type: 3}
+  - {fileID: 8300000, guid: 2ef345006977a48ce96cbd955752cae6, type: 3}
+  - {fileID: 8300000, guid: 01b38900e89ea4e6caf6620496b1ef39, type: 3}
+  - {fileID: 8300000, guid: 999d100682977425ca3cc3f122e19b2a, type: 3}
+  - {fileID: 8300000, guid: 89887757ed0274c728f446713439d587, type: 3}
+  - {fileID: 8300000, guid: 910cda677048b46bfaa42f04629584be, type: 3}
+  - {fileID: 8300000, guid: 40bf97a13f20e427ab1684e4f77bc181, type: 3}
+  - {fileID: 8300000, guid: c3fc3cb7766a14f498db9f4f977cf3da, type: 3}
+  spermDeflect: {fileID: 8300000, guid: cdf83adb2a0a140149df39e64da747ae, type: 3}
+  spermFail: {fileID: 8300000, guid: bc060b5badfca4043bb840db7b6f2644, type: 3}
 --- !u!212 &212778502263313134
 SpriteRenderer:
   m_ObjectHideFlags: 1
