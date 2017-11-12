@@ -2998,7 +2998,6 @@ GameObject:
   - component: {fileID: 1490684664}
   - component: {fileID: 1490684663}
   - component: {fileID: 1490684662}
-  - component: {fileID: 1490684678}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: flowchart
@@ -3186,7 +3185,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1490684666}
   - {fileID: 1490684663}
-  - {fileID: 1490684678}
 --- !u!114 &1490684671
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3334,8 +3332,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1490684670}
-  selectedCommands:
-  - {fileID: 1490684678}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -3360,26 +3357,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1490684678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1490684661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1490684661}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  targetGameObjectOLD: {fileID: 0}
 --- !u!1 &1754783593
 GameObject:
   m_ObjectHideFlags: 0
