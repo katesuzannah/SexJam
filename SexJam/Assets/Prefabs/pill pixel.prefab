@@ -114,6 +114,11 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 910cda677048b46bfaa42f04629584be, type: 3}
   - {fileID: 8300000, guid: 40bf97a13f20e427ab1684e4f77bc181, type: 3}
   - {fileID: 8300000, guid: c3fc3cb7766a14f498db9f4f977cf3da, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   spermDeflect: {fileID: 8300000, guid: cdf83adb2a0a140149df39e64da747ae, type: 3}
   spermFail: {fileID: 8300000, guid: bc060b5badfca4043bb840db7b6f2644, type: 3}
 --- !u!212 &212778502263313134

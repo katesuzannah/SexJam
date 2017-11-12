@@ -5,6 +5,7 @@ using UnityEngine;
 public class Circle : MonoBehaviour {
 
 	public float speed;
+	public GameObject flowchart;
 
 	void FixedUpdate () {
 		if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)) {
@@ -23,4 +24,9 @@ public class Circle : MonoBehaviour {
 //			Destroy (col.gameObject);
 //		}
 //	}
+	void OnCollisionEnter2D(Collision2D col) {
+		if (col.gameObject.tag == "okay" || col.gameObject.tag == "allright" || col.gameObject.tag == "distracted" || col.gameObject.tag == "stop" || col.gameObject.tag == "whatsup") {
+			flowchart.SetActive (true);
+		}
+	}
 }

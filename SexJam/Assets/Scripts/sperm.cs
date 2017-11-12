@@ -17,7 +17,10 @@ public class sperm : MonoBehaviour {
 	public AudioClip spermFail;
 	int clipChoice;
 
+//	GameObject flowchart;
+
 	void Start () {
+		//flowchart = GameObject.FindGameObjectWithTag ("flowchart");
 		sound = GameObject.FindGameObjectWithTag ("audioManager").GetComponent<Sound> ();
 //		rb = GetComponent<Rigidbody2D> ();
 		circle = GameObject.FindGameObjectWithTag ("circle");
@@ -64,6 +67,21 @@ public class sperm : MonoBehaviour {
 		case "pizza":
 			clipChoice = 12;
 			break;
+		case "allright":
+			clipChoice = 13;
+			break;
+		case "okay":
+			clipChoice = 14;
+			break;
+		case "stop":
+			clipChoice = 15;
+			break;
+		case "whatsup":
+			clipChoice = 16;
+			break;
+		case "distracted":
+			clipChoice = 17;
+			break;
 		}
 	}
 
@@ -75,6 +93,9 @@ public class sperm : MonoBehaviour {
 
 	void OnCollisionEnter2D (Collision2D col) {
 		Instantiate (particle, transform.position, Quaternion.identity);
+//		if (gameObject.tag == "stop" || gameObject.tag == "okay" || gameObject.tag == "allright" || gameObject.tag == "whatsup" || gameObject.tag == "distracted") {
+//			flowchart.SetActive (true);
+//		}
 		if (gameObject.tag != "sperm") {
 			sound.Play (clips [clipChoice]);
 		}
@@ -94,9 +115,5 @@ public class sperm : MonoBehaviour {
 			InstantiationManager.totalThings--;
 			Destroy (gameObject);
 		}
-	}
-
-	void Slow() {
-		
 	}
 }
